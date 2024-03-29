@@ -1,5 +1,5 @@
 {% set name = "cmake-package-check" %}
-{% set version = "0.0.1" %}
+{% set version = "0.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/ami-iit/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 7f55bc1931bfd72aea0c6b8e1b5cd7c623caa5edb2926019bb4229875ac2a9ee
+  sha256: 997d10e580aa14f2f00850fb5bbdad0fc8fa0c90daf265400e8b9bc3255b1403
 
 build:
   entry_points:
@@ -46,7 +46,7 @@ test:
 
 about:
   home: https://github.com/ami-iit/cmake-package-check
-  summary: Utility to check if a CMake package exists. 
+  summary: Utility to check if a CMake package exists.
   dev_url: https://github.com/ami-iit/cmake-package-check
   license: BSD-3-Clause
   license_file: LICENSE
