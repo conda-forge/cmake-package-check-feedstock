@@ -1,5 +1,5 @@
 {% set name = "cmake-package-check" %}
-{% set version = "0.0.2" %}
+{% set version = "0.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/ami-iit/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 997d10e580aa14f2f00850fb5bbdad0fc8fa0c90daf265400e8b9bc3255b1403
+  sha256: 4e23fb7e738b0dedcde16e2a615381a5e5b7b4acfe536e1e10c1933b71798e65
 
 build:
   entry_points:
